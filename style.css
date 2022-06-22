@@ -121,7 +121,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     width: 70%;
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .login-form input {
@@ -149,11 +149,38 @@ body {
     color: #969696;
 }
 
+.or p {
+    font-weight: bold;
+}
+
 .or div {
     width: 125px;
     height: 0;
     border: 1px solid #96969655;
     margin: 0 5px;
+}
+
+.facebook img {
+    width: 15px;
+    height: 15px;
+}
+
+.facebook {
+    color: rgb(34, 0, 108);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 101%;
+}
+
+.facebook-login {
+    margin: 1rem 0;
+}
+
+.forgot-pass a {
+    font-size: 13px;
+    color: rgb(34, 0, 108);
 }
 
 /* media queries */
