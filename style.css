@@ -58,22 +58,11 @@ body {
 
 .group:nth-child(1) {
     min-height: 19rem;
+    padding-top: 2rem;
 }
 
 .instagram-logo {
-    height: 3rem;
-}
-
-.profile-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.profile-photo img {
-    height: 6rem;
+    height: 3.5rem;
 }
 
 .instagram-login {
@@ -132,6 +121,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     width: 70%;
+    margin: 3rem 0;
 }
 
 .login-form input {
@@ -151,6 +141,19 @@ body {
     background-color: #b2dffc;
     color: white;
     border: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    color: #969696;
+}
+
+.or div {
+    width: 125px;
+    height: 0;
+    border: 1px solid #96969655;
+    margin: 0 5px;
 }
 
 /* media queries */
